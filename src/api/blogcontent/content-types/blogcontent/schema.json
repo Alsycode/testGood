@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blogcontents",
+  "info": {
+    "singularName": "blogcontent",
+    "pluralName": "blogcontents",
+    "displayName": "blogcontent"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "topic": {
+      "type": "string"
+    },
+    "explaination": {
+      "type": "text"
+    },
+    "blogphotos": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
